@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <form class="form">
+    <h2>Job Application</h2>
+
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone Number" required>
+
+    <label>Position Applying For:</label>
+    <select>
+      <option>Frontend Developer</option>
+      <option>Backend Developer</option>
+      <option>Full Stack Developer</option>
+    </select>
+
+    <label>Skills:</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox"> HTML</label>
+      <label><input type="checkbox"> CSS</label>
+      <label><input type="checkbox"> JavaScript</label>
+      <label><input type="checkbox"> Python</label>
+    </div>
+
+    <label>Upload Resume:</label>
+    <input type="file">
+
+    <textarea placeholder="Cover Letter" rows="4"></textarea>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</div>
+
+</body>
+</html>
